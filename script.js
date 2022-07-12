@@ -158,7 +158,7 @@ function increment(){
 
 
 
-const num1 = Math.ceil(Math.random()*10)
+/* const num1 = Math.ceil(Math.random()*10)
 const num2 = Math.ceil(Math.random()*10);
 //  const score = document.getElementById('score');
 const text = document.getElementById('text')
@@ -183,4 +183,5 @@ button.addEventListener('submit', ()=>{
 
 console.log(correctAnswer)
 
+ */
 

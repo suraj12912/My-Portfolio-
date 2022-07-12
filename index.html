@@ -6,8 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Developer | Landing Page</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
+
+    <header>
+      <div class="inner">
+          <div class="logo">
+              <div>
+                  <img src="logo.png" alt="Google logo">
+              </div>
+          </div>
+
+          <nav>
+              <li><span><a href="">About</a></span></li>
+              <li><span><a href="">Social Media</a></span></li>
+              <li><span><a href="">Expience </a></span></li>
+              <li><span><a href="" class="button">Contact</a></span></li>
+          </nav>
+      </div>
+  </header>
+
+
     <section class="hero_section">
       <div class="text_container">
         <h2><span class="lg_text">Hi,</span> I am Suraj Gupta</h2>
@@ -83,6 +105,30 @@
         </p>
       </div>
     </section>
-    <footer>Project By do some coding</footer>
+
+    <section class="assistance-container">
+      <div class="wrapper">
+        <div class="title">Simple Online Chatbot</div>
+        <div class="form">
+            <div class="bot-inbox inbox">
+                <div class="icon">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="msg-header">
+                    <p>Hello there, how can I help you?</p>
+                </div>
+            </div>
+        </div>
+        <div class="typing-field">
+            <div class="input-data">
+                <input id="data" type="text" placeholder="Type something here.." required>
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+    </section>
+    <footer>
+      This is footer
+    </footer>
   </body>
 </html>
